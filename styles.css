@@ -642,7 +642,7 @@ width:85vw ;
  @media only screen and (min-width: 768px){
     .penat{
         display: grid;
-        grid-template-columns: 1fr  ;
+        grid-template-columns: 1fr 1fr 1fr  ;
         margin-left: 10px;
         text-align: center;
         justify-items: center;
