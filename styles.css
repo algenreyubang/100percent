@@ -81,8 +81,10 @@ a {
 }
 #self{
     margin-top:30px;
-    font-size: 30px;
-    
+    font-size: 30px;  
+}
+.items{
+    margin: 30px;
 }
 .h{
     margin-top: 350px;
@@ -564,6 +566,9 @@ width:85vw ;
     #nav ul li a{
         color: white;  
     } 
+    .items{
+        margin: 25px;
+    }
 }
 
  /* work history media */
