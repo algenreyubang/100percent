@@ -33,7 +33,11 @@ a {
    background-color: black;
    color: rgb(192,192,192);
    font-size: 25px;
+   /* position: sticky top; */
    
+}
+.wal{
+    padding-left: 15px;
 }
 #nav a{
     text-decoration: none;    
@@ -231,8 +235,9 @@ margin-bottom: 150px;
 .penat{
  display:grid;
  /* width: 150px; */
- grid-template-columns: 1fr  1fr;
+ grid-template-columns: 1fr ;
  margin-top: 200px;
+ justify-items: center;
 }
 .plant{
     /* display: flex;
@@ -323,12 +328,15 @@ margin-bottom: 150px;
 
 /* index */
 
-@media only screen and (min-width: 100px) and (max-width:600px) {
+@media only screen and (min-width: 100px) and (max-width:760px) {
  #nav{
  height: 100%;     
- display: grid; 
+ display:flex; 
  width: 100%;
-justify-items: center;
+/* justify-items: center; */
+align-items: center;
+align-self: center;
+align-content: center;
 }
 #nav ul{
 display: grid;
@@ -362,7 +370,7 @@ padding-bottom: 500px;
     display: flex;
     flex-direction: column;
    
-    padding-top: 1500px;
+    padding-top: 1800px;
     margin-bottom: 100px;
     padding-bottom: 100px;
     }
@@ -569,6 +577,10 @@ width:85vw ;
     .items{
         margin: 25px;
     }
+    .my{
+        width: 700px;
+    }
+    
 }
 
  /* work history media */
@@ -628,11 +640,13 @@ width:85vw ;
  
  
  
- @media only screen and (min-width:600px) {
+ @media only screen and (min-width:600px) and (max-width: 767px) {
+    
     .penat{
        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin-left: 10px;
+        grid-template-columns: 1fr ;
+        margin:auto;
+        justify-items: center;
         text-align: justify;
     }
     .plant{
@@ -644,10 +658,10 @@ width:85vw ;
     }
     
  }
- @media only screen and (min-width: 768px){
+ @media only screen and (min-width: 1000px){
     .penat{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr  ;
+        grid-template-columns: 1fr 1fr 1fr   ;
         margin-left: 10px;
         text-align: center;
         justify-items: center;
@@ -661,6 +675,14 @@ width:85vw ;
         padding-left: 30px;
     }
  }
+
+/* .plant{
+    width: 45vh;
+}
+.seed{
+    text-align: left;
+    padding-left: 30px;
+} */
  /* hobbies */
  @media only screen and (min-width: 100px) and (max-width: 600px){
     #nav{
@@ -857,10 +879,11 @@ width:85vw ;
 /* life history */
 @media only screen and (min-width: 100px) and (max-width: 1000px){
    #nav{ height: max-content;
-    display: grid;
+    display: flex;
     width: 100%;
     justify-items: center;
     margin-bottom: 300px;
+    flex-direction: column;
    }
    #nav ul{
        
